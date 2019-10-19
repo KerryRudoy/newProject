@@ -8,7 +8,7 @@ public class Main {
         driver.findElement(By.name("os_password")).click();
         driver.findElement(By.name("os_password")).sendKeys("Karina_Soltanovskaya");
         driver.findElement(By.cssSelector("#login-form-submit")).click();
-        Thread.sleep(3000);
+        Thread.sleep(4500);
 
         driver.findElement(By.id("create_link")).click();
         driver.findElement(By.xpath("//input[@id='project-field']")).click();
