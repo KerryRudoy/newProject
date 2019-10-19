@@ -17,7 +17,7 @@ public class Main {
         driver.findElement(By.cssSelector("#summary")).click();
         driver.findElement(By.xpath("//body[@id='tinymce']//p")).click();
         driver.findElement(By.id("create-issue-submit")).click();
-        Thread.sleep(6000);
+        Thread.sleep(7000);
 
         driver.quit();
 
